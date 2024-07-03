@@ -31,9 +31,9 @@ This Node.js script parses an XML file, performs text replacement, and removes s
     ```bash
     node parse-xml.js <searchValue> <replaceValue>
 
-    Replace <searchValue> with the text you want to replace, and <replaceValue> with the replacement text.
+Replace <searchValue> with the text you want to replace, and <replaceValue> with the replacement text.
 
-    Example:
+Example:
 
     ```bash
     node parse-xml.js @Magento @NewText
