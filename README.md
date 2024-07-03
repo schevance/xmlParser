@@ -26,8 +26,14 @@ This Node.js script parses an XML file, performs text replacement, and removes s
 
 1. Command Line:
 
-Navigate to the directory containing parse-xml.js and run the script using Node.js:
+    Navigate to the directory containing parse-xml.js and run the script using Node.js:
 
     node parse-xml.js <searchValue> <replaceValue>
 
-Replace <searchValue> with the text you want to replace, and <replaceValue> with the replacement text.
+    Replace <searchValue> with the text you want to replace, and <replaceValue> with the replacement text.
+
+    Example:
+
+    node parse-xml.js @Magento @NewText
+
+
